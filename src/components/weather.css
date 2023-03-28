@@ -1,0 +1,60 @@
+.inputBox {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: rgb(23, 4, 31);
+}
+
+.inputField {
+  padding: 35px 80px;
+  text-align: center;
+  background-color: rgb(215, 180, 224);
+  border-radius: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.inputField > button {
+  border: none;
+  margin-top: 15px;
+  text-transform: inherit;
+  border-radius: 50px;
+  padding: 9PX 24PX;
+  background-color: rgb(23, 4, 31);
+  color: white;
+}
+
+.inputField>input{
+    border: none;
+    border:2px solid rgb(23, 4, 31);
+    outline: none;
+    padding: 8px 15px;
+    color: rgb(23, 4, 31);
+    font-weight: 700;
+    font-size: 2.6cqmin;
+    background-color: rgb(215, 180, 224);
+}
+
+.inputField > h3 {
+  margin-top: 15px;
+  color: rgb(23, 4, 31);
+}
+
+.inputField>h2{
+    color: rgb(23, 4, 31);
+}
+
+input {
+  margin-top: 15px;
+}
+
+img {
+  margin-top: 15px;
+  height: 120px;
+  width: 130px;
+}
+
+.result{
+    border: none;
+    border-bottom: 1px solid ;
+    margin-top: 20px;
+}
